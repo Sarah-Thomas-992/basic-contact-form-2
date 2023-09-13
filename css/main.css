@@ -88,7 +88,7 @@ textarea {
    ========================================================================== */
 
 body{
-  background: rgb(167, 190, 157);
+  background: rgb(214, 170, 140);
   display: flex;
   justify-content: center;
 }
@@ -100,6 +100,23 @@ body{
   flex-direction: column;
   align-items: center;
   width: 90%;
+}
+
+.tabs ul{
+  list-style-type: none;
+}
+
+.tabs li{
+  border: 1px rgb(124, 67, 29) solid;
+  margin: 10px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: rgb(219, 127, 66) ;
+}
+
+.tabs li a{
+  color: black;
+  text-decoration: none;
 }
 
 img{
@@ -134,6 +151,10 @@ p {
 
 .hide{
   display: none;
+}
+
+.email-link{
+  color: black;
 }
 
 
